@@ -1,48 +1,71 @@
 {
-  "build": {
-    "content": [
-      {
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "_themes/**",
-          "_themes.pdf/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "x",
-          "ThirdPartyNotices"
-        ],
-        "files": [
-          "**/*.md",
-          "**/*.yml"
-        ]
-      }
-    ],
-    "dest": "sacorDocsetTest",
-    "externalReference": [],
-    "fileMetadata": {},
-    "globalMetadata": {
-      "breadcrumb_path": "/sacorDocsetTest/breadcrumb/toc.json",
-      "extendBreadcrumb": true,
-      "feedback_system": "None"
-    },
-    "markdownEngineName": "dfm-latest",
-    "overwrite": [],
-    "resource": [
-      {
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "_themes/**",
-          "_themes.pdf/**"
-        ],
-        "files": [
-          "**/*.png",
-          "**/*.jpg"
-        ]
-      }
-    ],
-    "template": []
-  }
+	"build": {
+		"content": [
+			{
+				"exclude": [
+					"**/obj/**",
+					"**/includes/**",
+					"_themes/**",
+					"_themes.pdf/**",
+					"README.md",
+					"LICENSE",
+					"LICENSE-CODE",
+					"ThirdPartyNotices"
+				],
+				"files": [
+					"**/*.md",
+					"**/*.yml"
+				]
+			}
+		],
+		"dest": "sacorDocsetTest",
+		"externalReference": [],
+		"fileMetadata": {
+			"localization_scopes": {
+				"azure/**/*.yml": [
+					"de-de",
+					"es-es",
+					"fr-fr",
+					"it-it",
+					"ru-ru",
+					"pt-br",
+					"ja-jp",
+					"ko-kr",
+					"zh-cn",
+					"zh-tw",
+					"cs-cz",
+					"hu-hu",
+					"nl-nl",
+					"pl-pl",
+					"pt-pt",
+					"tr-tr",
+					"sv-se"
+				]
+			},
+			"globalMetadata": {
+				"breadcrumb_path": "/sacorDocsetTest/breadcrumb/toc.json",
+				"path": "docs/test.de-de",
+				"extendBreadcrumb": true,
+				"bilingual_type": "hover over",
+				"feedback_system": "None"
+			},
+			"markdownEngineName": "markdig",
+			"overwrite": [],
+			"resource": [
+				{
+					"exclude": [
+						"**/obj/**",
+						"**/includes/**",
+						"_themes/**",
+						"_themes.pdf/**"
+					],
+					"files": [
+						"**/*.png",
+						"**/*.jpg"
+					]
+				}
+			],
+			"template": []
+		}
+	}
 }

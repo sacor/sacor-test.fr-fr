@@ -45,8 +45,8 @@
 			},
 			"globalMetadata": {
 				"breadcrumb_path": "/sacorDocsetTest/breadcrumb/toc.json",
-				"test": "github.com/azure.de-de",
-				"path": "docs/test.de-de",
+				"test": "github.com/azure.fr-fr",
+				"path": "docs/test.fr-fr",
 				"extendBreadcrumb": true,
 				"bilingual_type": "hover over",
 				"feedback_system": "None"
